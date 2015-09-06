@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Images.qrc</file>
+        <file>Images/Icon.jpeg</file>
+        <file>Images/1.jpg</file>
+        <file>Images/2.jpg</file>
+        <file>Images/3.jpg</file>
+        <file>Images/4.jpg</file>
+        <file>Images/5.png</file>
+        <file>Images/6.png</file>
+        <file>Images/box.jpg</file>
+        <file>Images/flag.png</file>
+        <file>Images/question.png</file>
+        <file>Images/empty.png</file>
+        <file>Images/mine.png</file>
+        <file>Images/timelabel.png</file>
+    </qresource>
+</RCC>

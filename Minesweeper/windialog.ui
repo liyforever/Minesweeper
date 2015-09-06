@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WinDialog</class>
+ <widget class="QDialog" name="WinDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>380</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>20</y>
+     <width>111</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>恭喜!您赢了!</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="playTimeLabel">
+   <property name="geometry">
+    <rect>
+     <x>16</x>
+     <y>100</y>
+     <width>65</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="bestTimeLabel">
+   <property name="geometry">
+    <rect>
+     <x>16</x>
+     <y>130</y>
+     <width>100</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="countPlayLabel">
+   <property name="geometry">
+    <rect>
+     <x>16</x>
+     <y>155</y>
+     <width>80</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="countWinLabel">
+   <property name="geometry">
+    <rect>
+     <x>16</x>
+     <y>180</y>
+     <width>80</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="dateLabel">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>130</y>
+     <width>100</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="gameInfoLabel">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>180</y>
+     <width>100</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="againButton">
+   <property name="geometry">
+    <rect>
+     <x>15</x>
+     <y>220</y>
+     <width>135</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>在玩一局(&amp;P)</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="exitButton">
+   <property name="geometry">
+    <rect>
+     <x>15</x>
+     <y>250</y>
+     <width>135</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>退出(&amp;X)</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>OptionDialog</class>
+ <widget class="QDialog" name="OptionDialog">
+  <property name="windowModality">
+   <enum>Qt::NonModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>403</width>
+    <height>329</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>355</width>
+     <height>240</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>难度</string>
+   </property>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>339</width>
+      <height>210</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_4">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>初级(&amp;B)</string>
+         </property>
+         <property name="buddy">
+          <cstring>simpleRadioButton</cstring>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="simpleRadioButton">
+         <property name="text">
+          <string>10 个雷</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>9 x 9平铺网络</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>13</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_6">
+         <property name="text">
+          <string>中级(&amp;I)</string>
+         </property>
+         <property name="buddy">
+          <cstring>middleRadioButton</cstring>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="middleRadioButton">
+         <property name="text">
+          <string>40 个雷</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_3">
+         <property name="text">
+          <string>16 x 16平铺网络</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>13</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_5">
+         <property name="text">
+          <string>高级(&amp;V)</string>
+         </property>
+         <property name="buddy">
+          <cstring>expertRadioButton</cstring>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="expertRadioButton">
+         <property name="text">
+          <string>99个雷</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_4">
+         <property name="text">
+          <string>16 x 30平铺网络</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QRadioButton" name="customRadioButton">
+         <property name="text">
+          <string>自定义(&amp;U)</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QLabel" name="label_7">
+           <property name="text">
+            <string>高度(9-24)(&amp;H):</string>
+           </property>
+           <property name="buddy">
+            <cstring>rowEdit</cstring>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="rowEdit"/>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <widget class="QLabel" name="label_8">
+           <property name="text">
+            <string>宽度(9-30)(&amp;W):</string>
+           </property>
+           <property name="buddy">
+            <cstring>columnEdit</cstring>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="columnEdit"/>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <item>
+          <widget class="QLabel" name="label_9">
+           <property name="text">
+            <string>雷数(10-688)(&amp;M):</string>
+           </property>
+           <property name="buddy">
+            <cstring>mineEdit</cstring>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="mineEdit"/>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="okButton">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>280</y>
+     <width>110</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>确定</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancleButton">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>280</y>
+     <width>110</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>取消</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
